@@ -4,7 +4,7 @@ Code and data for **SWAYed by False Premises: Measuring and Mitigating Framing S
 
 This repository reproduces every table and figure in the paper from the model answers we collected. You do not need API keys, credentials or network access.
 
-## Reproduce the paper
+## Setup
 
 Requires Python 3.10 or later.
 
@@ -26,24 +26,6 @@ jupyter nbconvert --to notebook --execute --inplace 0[1-5]_*.ipynb
 You can also open them with `jupyter lab` and run them top to bottom. Each notebook takes under a minute.
 
 - Figures are written to `figures/` and tables to `tables/`.
-- Each notebook checks its results against the reference values in `expected/`. It prints `[OK]` for every check and stops with an error if a result differs.
-
-## Tables and figures
-
-| Result | Notebook |
-|---|---|
-| Figure 2: average S by commitment level | `01_main_results` |
-| Figure 3: effect of clause type | `01_main_results` |
-| Tables 4–6: S per model, clause type and commitment level | `01_main_results` |
-| Figures 8–11: bootstrap confidence intervals | `01_main_results` |
-| Table 11: constrained vs. free-form output | `01_main_results` |
-| Figure 5, Tables 16–17: ablations of the counterfactual CoT | `02_mitigation` |
-| Figure 6: mitigation on DebateQA | `02_mitigation` |
-| CoT mitigation on AITA and LFQA (appendix) | `02_mitigation` |
-| Evidence sensitivity of the CoT (appendix) | `02_mitigation` |
-| Figure 7, Table 15: FEVER | `03_fever` |
-| Table 10: sampling temperature | `04_temperature` |
-| Tables 7–9: paired t-tests across commitment levels | `05_statistical_analysis` |
 
 The presupposition taxonomy (Tables 1–3) and the prompts are defined in `sway/presuppositions.py` and `notebooks/00_setup.ipynb`.
 
