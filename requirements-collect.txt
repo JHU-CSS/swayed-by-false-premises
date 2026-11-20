@@ -1,0 +1,9 @@
+-r requirements.txt
+boto3
+botocore
+datasets
+nest-asyncio
+python-dotenv
+requests
+tqdm
+openpyxl

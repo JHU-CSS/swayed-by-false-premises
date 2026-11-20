@@ -1,0 +1,2 @@
+dataset,model_name,low_declarative_plain_declarative,medium_declarative_plain_declarative,high_declarative_plain_declarative,low_declarative_tagged_declarative,medium_declarative_tagged_declarative,high_declarative_tagged_declarative,low_imperative_rising_imperative,medium_imperative_plain_imperative,high_imperative_plain_imperative,low_interrogative_neutral_polar_question,medium_interrogative_prepnegq,high_interrogative_prepnegq
+DQA,claude_sonnet,-0.0256,-0.0911,-0.1484,-0.0843,-0.1058,-0.1413,0.0,-0.1058,-0.1058,-0.0126,-0.1174,-0.0631

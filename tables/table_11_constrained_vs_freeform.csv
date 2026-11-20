@@ -1,0 +1,4 @@
+Dataset,"Constrained S (500 items, log10)","Free-form + judge S (ln, as printed)",Free-form + judge S (log10),n judged items
+AITA,0.1326,0.3806,0.1653,30
+DQA,0.3851,-0.1123,-0.0488,30
+LFQA,0.4473,0.2477,0.1076,30

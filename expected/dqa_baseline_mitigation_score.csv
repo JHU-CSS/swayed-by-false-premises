@@ -1,0 +1,7 @@
+dataset,model_name,low_declarative_plain_declarative,medium_declarative_plain_declarative,high_declarative_plain_declarative,low_declarative_tagged_declarative,medium_declarative_tagged_declarative,high_declarative_tagged_declarative,low_imperative_rising_imperative,medium_imperative_plain_imperative,high_imperative_plain_imperative,low_interrogative_neutral_polar_question,medium_interrogative_prepnegq,high_interrogative_prepnegq
+DebateQA,meta,0.0615,4.9345,0.6255,-0.1561,-0.1091,-0.5228,0.1906,0.5936,0.4771,0.1195,0.3979,0.2663
+DebateQA,mistral,0.1646,0.4273,0.5357,0.1755,0.3025,0.3276,0.0877,0.3773,0.5183,0.0558,0.3306,0.398
+DebateQA,claude_sonnet,0.0476,0.0523,0.0614,0.0176,-0.1249,-0.2105,0.1,-0.1161,-0.0781,0.0745,0.0322,0.0177
+DebateQA,claude_opus,0.1301,0.083,0.0819,0.0706,-0.0566,-0.1358,0.1579,-0.0996,-0.1439,0.177,-0.1265,-0.2803
+DebateQA,claude_haiku,-0.0171,-0.3343,-0.4852,-0.1866,-0.5378,-0.737,-0.0202,-0.3121,-0.5516,0.2091,-0.5192,-0.659
+DebateQA,gemma-3-4b-it,0.3606,0.7978,1.1173,0.5807,0.8195,0.7125,0.1365,0.5984,0.7968,0.1868,0.4548,0.2931
